@@ -1,0 +1,31 @@
+%link-red {
+  display: block;
+  width: 370px;
+  padding: 26px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: $red-primary;
+  transition: 0.3s;
+
+  &:hover {
+    background: $red-hover;
+  }
+
+  &:active {
+    background: $red-primary;
+    box-shadow: 4px 4px 30px 0px $red-primary;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 314px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 31px;
+    width: 100%;
+    max-width: 280px;
+  }
+}

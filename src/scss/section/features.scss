@@ -1,0 +1,81 @@
+.features {
+  padding: 116px 0 134px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 78px 0 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 40px 0 35px;
+  }
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 88px 29px;
+
+  @media screen and (max-width: 1024px) {
+    gap: 49px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 42px;
+  }
+}
+
+.features__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__icon {
+  margin-bottom: 29px;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 25px;
+    width: 85px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 22px;
+    width: 75px;
+  }
+}
+
+.features__list-item-title {
+  padding: 23px;
+  margin-bottom: 20px;
+  color: $sub-title;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1024px) {
+    padding: 20px;
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 9px;
+    margin-bottom: 0;
+  }
+}
+
+.features__list-item-descr {
+  color: $description;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+  }
+
+
+}
