@@ -1,2 +1,3 @@
 require('./header-scroll');
-require('./slider')
+require('./slider');
+require('./burger');
